@@ -1,0 +1,135 @@
+.landing {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 239, 252);
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+
+    .particles {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0.5;
+    }
+
+    .notice {
+        position: absolute;
+        top: 2rem;
+        opacity: 0.3;
+        font-size: 0.7rem;
+        animation: notice 2s ease-in-out infinite;
+        text-transform: lowercase;
+        pointer-events: none;
+        z-index: 99;
+    }
+
+    .music {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 2rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        z-index: 99;
+    }
+
+    @keyframes notice {
+        0% {
+            opacity: 0.3;
+        }
+        45% {
+            opacity: 0.3;
+        }
+        50% {
+            opacity: 0.7;
+        }
+        60% {
+            opacity: 0.3;
+        }
+        70% {
+            opacity: 0.7;
+        }
+        80% {
+            opacity: 0.3;
+        }
+        100% {
+            opacity: 0.3;
+        }
+    }
+
+    .heart {
+        text-align: center;
+        height: auto;
+        // animation: heart 2s ease-in-out infinite;
+    }
+
+    .heart img {
+        margin: auto;
+        width: 70%;
+        max-width: 700px;
+    }
+
+    @keyframes heart {
+        0% {
+            transform: translateY(-15px);
+        }
+        50% {
+            transform: translateY(15px);
+            opacity: 0.8;
+        }
+        100% {
+            transform: translateY(-15px);
+        }
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 2rem;
+        padding: 0 2rem;
+        pointer-events: none;
+
+        * {
+            pointer-events: all;
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .socials {
+            z-index: 99;
+            font-size: 1.8rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 1rem;
+
+            a {
+                color: inherit;
+                margin: 0 1rem;
+                opacity: 0.8;
+                transition: 0.3s ease all;
+            }
+
+            a:hover {
+                opacity: 1;
+            }
+        }
+
+        .credit {
+            font-size: 0.5rem;
+            opacity: 0.5;
+
+            a {
+                color: inherit;
+            }
+        }
+    }
+}
