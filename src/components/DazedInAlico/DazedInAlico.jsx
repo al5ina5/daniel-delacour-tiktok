@@ -1,4 +1,4 @@
-export default function PageTwo() {
+export default function DazedInAlico() {
     return (
         <>
             <div
@@ -17,10 +17,20 @@ export default function PageTwo() {
                     </div>
 
                     <div className='space-x-4 text-lg text-center text-green-400'>
-                        <i className='fab fa-apple' />
-                        <i className='fab fa-spotify' />
-                        <i className='fab fa-soundcloud' />
-                        <i className='fab fa-youtube' />
+                        <a href='https://music.apple.com/us/album/dazed-in-alico-ep/1476649213' target='_blank'>
+                            <i className='fab fa-apple' />
+                        </a>
+                        <a href='https://open.spotify.com/album/67WMkW44aNxhYRChPs4OXG' target='_blank'>
+                            <i className='fab fa-spotify' />
+                        </a>
+                        <a href='https://soundcloud.com/underviews/sets/dazed-in-alico' target='_blank'>
+                            <i className='fab fa-soundcloud' />
+                        </a>
+                        <a
+                            href='https://music.youtube.com/playlist?list=OLAK5uy_m1apAUT16dqpxD0DHrYzmq_AwQFsE8tpA'
+                            target='_blank'>
+                            <i className='fab fa-youtube' />
+                        </a>
                     </div>
                 </div>
             </div>
