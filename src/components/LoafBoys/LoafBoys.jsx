@@ -5,6 +5,7 @@ export default function PageOne() {
                 <div className='max-w-xl p-4 m-auto space-y-6'>
                     <img src='/img/loaf-boys-bread.png' alt='Loaf Boys Bread' className='w-64 mx-auto' />
                     <img src='/img/loaf-boys.png' alt='Loaf Boys' className='animate-pulse' />
+
                     <div className='text-center text-blue-800'>
                         <p className='text-xs font-black uppercase'>Daniel Delacour x KVON are the...</p>
                         <h1 className='text-4xl font-black uppercase'>Loaf Boys</h1>

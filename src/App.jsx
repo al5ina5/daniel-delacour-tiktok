@@ -5,7 +5,7 @@ import ScrollIndicator from './components/ScrollIndicator'
 
 import StressYou from './components/StressYou/StressYou'
 import LoafBoys from './components/LoafBoys/LoafBoys'
-import PageTwo from './components/PageTwo'
+import DazedInAlico from './components/DazedInAlico/DazedInAlico'
 
 export default function MyComponent() {
     const totalPages = 2
@@ -30,7 +30,7 @@ export default function MyComponent() {
 
     return (
         <>
-            <ScrollIndicator pageNumber={pageNumber} setPageNumber={setPageNumber} totalPages={totalPages} />
+            {/* <ScrollIndicator pageNumber={pageNumber} setPageNumber={setPageNumber} totalPages={totalPages} /> */}
             <Page
                 gap={0}
                 onChangePage={(e) => setPageNumber(e)}
@@ -42,10 +42,10 @@ export default function MyComponent() {
                     <LoafBoys />
                 </Frame>
                 <Frame>
-                    <PageTwo />
+                    <StressYou />
                 </Frame>
                 <Frame>
-                    <StressYou />
+                    <DazedInAlico />
                 </Frame>
             </Page>
         </>

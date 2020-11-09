@@ -13,6 +13,7 @@ code {
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 
 body {
     font-family: 'Inter', sans-serif;
@@ -27,3 +28,7 @@ body {
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.playfair-font {
+        font-family: 'Playfair Display', serif;
+}
