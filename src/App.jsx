@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Frame, Page } from 'framer'
 
-import StressYou from './components/StressYou/StressYou'
 import ScrollIndicator from './components/ScrollIndicator'
-import PageOne from './components/PageOne'
+
+import StressYou from './components/StressYou/StressYou'
+import LoafBoys from './components/LoafBoys/LoafBoys'
 import PageTwo from './components/PageTwo'
 
 export default function MyComponent() {
@@ -38,7 +39,7 @@ export default function MyComponent() {
                 height='100%'
                 width='100%'>
                 <Frame>
-                    <PageOne />
+                    <LoafBoys />
                 </Frame>
                 <Frame>
                     <PageTwo />
