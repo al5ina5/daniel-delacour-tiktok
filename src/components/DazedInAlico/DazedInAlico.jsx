@@ -7,8 +7,8 @@ export default function PageTwo() {
                     backgroundSize: 'cover'
                 }}
                 className='flex w-full h-full text-white bg-green-400 playfair-font'>
-                <div className='max-w-md m-auto space-y-6'>
-                    <img src='/img/dia-cover.jpg' alt='' className='border border-green-400 rounded-md shadow ' />
+                <div className='max-w-md p-6 m-auto space-y-6'>
+                    <img src='/img/dia-cover.jpg' alt='' className='border border-green-900 rounded-md shadow ' />
 
                     <div className='text-center text-green-400'>
                         {/* <p className='text-xs font-black uppercase'>Daniel Delacour x KVON are the...</p> */}

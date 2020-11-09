@@ -2,7 +2,7 @@ export default function PageOne() {
     return (
         <>
             <div style={{ backgroundColor: '#7DFFF4' }} className='flex w-full h-full'>
-                <div className='max-w-xl p-4 m-auto space-y-6'>
+                <div className='max-w-xl p-6 m-auto space-y-6'>
                     <img src='/img/loaf-boys-bread.png' alt='Loaf Boys Bread' className='w-64 mx-auto' />
                     <img src='/img/loaf-boys.png' alt='Loaf Boys' className='animate-pulse' />
 

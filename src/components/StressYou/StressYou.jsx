@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import Particles from 'react-particles-js'
-import { motion } from 'framer-motion'
-import Sound from 'react-sound'
+// import { motion } from 'framer-motion'
+// import Sound from 'react-sound'
 import Typist from 'react-typist'
 
 import styles from './StressYou.module.scss'

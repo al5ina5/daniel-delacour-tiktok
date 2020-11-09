@@ -32,6 +32,7 @@ export default function MyComponent() {
         <>
             {/* <ScrollIndicator pageNumber={pageNumber} setPageNumber={setPageNumber} totalPages={totalPages} /> */}
             <Page
+                wheelEnabled
                 gap={0}
                 onChangePage={(e) => setPageNumber(e)}
                 currentPage={pageNumber}
