@@ -16,7 +16,7 @@ export default function DazedInAlico() {
                         <p>The audio story of a boy from Florida.</p>
                     </div>
 
-                    <div className='space-x-4 text-lg text-center text-green-400'>
+                    <div className='space-x-4 text-2xl text-center text-green-400'>
                         <a href='https://music.apple.com/us/album/dazed-in-alico-ep/1476649213' target='_blank'>
                             <i className='fab fa-apple' />
                         </a>
